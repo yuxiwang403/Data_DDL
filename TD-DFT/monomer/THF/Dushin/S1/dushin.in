@@ -1,0 +1,5 @@
+2 0
+.
+
+2 1 'S0 freq' 'DDL-S0-opt-freq.log'
+0 1 'S1 freq' 'DDL-S1-opt-freq.log'

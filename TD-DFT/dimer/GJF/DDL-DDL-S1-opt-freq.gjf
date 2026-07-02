@@ -1,0 +1,15 @@
+%nprocshared=32
+%mem=16GB
+%oldchk=DDL-DDL-S0-TD.chk
+%chk=DDL-DDL-S1-opt-freq.chk
+#p CAM-B3LYP/TZVP em=gd3bj TD=(NStates=6,Root=1) SCRF=Solvent=Water Geom=Check Guess=Read Opt Freq NoSymm
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

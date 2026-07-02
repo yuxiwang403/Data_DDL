@@ -1,0 +1,14 @@
+%nprocshared=32
+%mem=16GB
+%oldchk=DDL-S0-opt-freq.chk
+%chk=DDL-S0-intmodes.chk
+#p freq=intmodes IOp(7/75=-1) CAM-B3LYP/TZVP em=gd3bj SCRF=Solvent=Water Geom=Check Guess=Read
+
+Title Card Required
+
+0 1
+
+
+
+
+

@@ -1,0 +1,15 @@
+%nprocshared=16
+%mem=16GB
+%oldchk=DDL-LR-16.chk
+%chk=DDL-LR-Eq-16.chk
+#p CAM-B3LYP TZVP em=gd3bj td(Eqsolv,nstates=6,root=1) scrf=(Solvent=Water) Geom=Check Guess=Read
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

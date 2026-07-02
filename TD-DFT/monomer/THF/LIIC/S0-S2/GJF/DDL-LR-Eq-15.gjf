@@ -1,0 +1,15 @@
+%nprocshared=16
+%mem=16GB
+%oldchk=DDL-LR-15.chk
+%chk=DDL-LR-Eq-15.chk
+#p CAM-B3LYP TZVP em=gd3bj td(Eqsolv,nstates=6,root=1) scrf=(Solvent=TetraHydroFuran) Geom=Check Guess=Read
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

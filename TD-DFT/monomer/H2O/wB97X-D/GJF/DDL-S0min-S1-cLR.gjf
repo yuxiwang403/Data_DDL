@@ -1,0 +1,15 @@
+%nprocshared=32
+%mem=16GB
+%oldchk=DDL-S0-opt-freq.chk
+%chk=DDL-S0min-S1-cLR.chk
+#p wB97XD/TZVP  TD=(NStates=6,Root=1) SCRF=(Solvent=Water,CorrectedLR) Geom=Check Guess=Read
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

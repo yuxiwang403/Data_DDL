@@ -1,0 +1,15 @@
+%nprocshared=32
+%mem=16GB
+%oldchk=DDL-S1-opt-freq.chk
+%chk=DDL-S1-TD-Eq.chk
+#p PBE1PBE/TZVP em=gd3bj TD=(Eqsolv,NStates=6) IOp(9/40=4) SCRF=(Solvent=Water) Geom=Check Guess=Read NoSymm
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

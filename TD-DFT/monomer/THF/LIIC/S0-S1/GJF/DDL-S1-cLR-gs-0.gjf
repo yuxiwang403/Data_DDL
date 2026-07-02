@@ -1,0 +1,15 @@
+%nprocshared=16
+%mem=16GB
+%oldchk=DDL-S1-cLR-0.chk
+%chk=DDL-S1-cLR-gs-0.chk
+#p CAM-B3LYP TZVP em=gd3bj scrf=(Solvent=TetraHydroFuran,NonEquilibrium=Read) Geom=Check Guess=Read
+
+Title Card Required
+
+0 1
+
+
+
+
+
+

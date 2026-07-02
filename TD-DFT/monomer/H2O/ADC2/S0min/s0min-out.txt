@@ -1,0 +1,2581 @@
+ **********************************************************************
+                          MRCC program system
+ **********************************************************************
+ 
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+      Bence Hegely, Bence Ladoczki, Klara Petrov, Jozsef Csontos,
+     Adam Ganyecz, Istvan Ladjanszki, Lorant Szegedy, Mate Farkas,
+          Pal D. Mezei, Reka A. Horvath, and Balazs D. Lorincz
+ 
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+ 
+                              www.mrcc.hu
+ 
+                            Version: 25.1.2
+
+ ************************ 2026-01-24 17:23:20 *************************
+ Executing minp...
+
+ Reading input from MINP...
+ 
+ Input file:
+ 
+basis=def2-TZVP
+calc=ADC(2)
+mem=50GB
+nstate=6
+nsing=6
+pcm=Water
+
+geom=xyz
+29
+
+ O                  2.28561500   -2.28048200    0.17267100
+ O                 -3.58490900   -0.24654000   -0.49350700
+ N                  0.02822000    1.79999800    0.26831800
+ H                  0.05896600    2.80662800    0.27130100
+ C                 -1.28988100   -0.13846200    0.08814800
+ C                  1.23108900    1.13602400    0.15033000
+ C                 -1.20399300    1.21175900    0.08923200
+ C                 -2.56219700   -0.82274400   -0.13651900
+ C                 -0.06128400   -0.95505200    0.41980800
+ H                 -0.08265500   -1.27238700    1.47095100
+ H                 -0.05103300   -1.87943900   -0.15305700
+ C                  1.22836300   -0.21638100    0.13715400
+ C                  2.39538500   -1.07871600   -0.05256100
+ C                 -2.32045200    2.18919300   -0.09108300
+ H                 -2.00686200    3.18446700    0.22324300
+ H                 -2.62025900    2.23614200   -1.13808400
+ H                 -3.19914500    1.89121300    0.47241900
+ C                 -2.59583300   -2.31480300    0.08561800
+ H                 -3.62697700   -2.65641200    0.05024400
+ H                 -2.02735200   -2.82410600   -0.69539400
+ H                 -2.14626300   -2.58980700    1.04018900
+ C                  3.72394400   -0.56997500   -0.55596000
+ H                  3.62563100    0.20254600   -1.31393300
+ H                  4.31112700   -0.16442800    0.26965300
+ H                  4.26849800   -1.41656100   -0.96749900
+ C                  2.39413400    2.07557800    0.04852400
+ H                  3.28222800    1.69275300    0.53604100
+ H                  2.63403300    2.28329900   -0.99532400
+ H                  2.14122700    3.02376700    0.52156400
+
+ 
+ 
+ Checking keyword combinations...
+ 
+ Keywords:
+ 
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=def2-tzvp
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.95
+ bpcompv=0.98
+ bpdfo=0.95
+ bpocc=0.95
+ bppdo=0.95
+ bppdv=0.98
+ bpedo=0.95
+ bpedv=0.98
+ bp_subsyso=0.95
+ bp_subsysv=0.95
+ cabscorr=off
+ cabsdual=off
+ calc=adc(2)
+ ccmaxit=50
+ ccprog=cis
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=6
+ charge=0
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=frozen
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ deltaf12=off
+ delocsomofact=
+ dendec=laplace
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=auto
+ dfbasis_scf=auto
+ dfbasis_scf_sm=auto
+ dfintran=drpa
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ dyson=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_f12=0.d0
+ excrad_fin=0.000000000D+00
+ fastdbbsc=v2
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=xyz
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=none
+ incore=off
+ intalg=auto
+ ip_ea=off
+ itol=10
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=0.0d0
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=50gb
+ mmprog=
+ molden=on
+ mp2ongrid=off
+ mpitasks=1
+ mulmet=0
+ mult=
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=0.d0
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=6
+ nsing=6
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=5
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pao_tol=1e-3
+ pcm=water
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=none
+ rest=0
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=semicanonical
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=50
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=50
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=7
+ scfext=10
+ scfguessdens=
+ scfiguess=sad
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=50
+ scftype=
+ scftol=6
+ scspe=1.d0
+ scsph=1.d0
+ scsps=0.0d0
+ scsps_t=0.0d0
+ scspt=0.0d0
+ scspt_t=0.0d0
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ subsys_bopu=on
+ symm=
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=off
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=2
+ wpairtol=0.100000000E-05
+
+ ************************ 2026-01-24 17:23:21 *************************
+ Executing integ...
+
+ Allocation of 50.0 Gbytes of memory...
+ 
+ 
+ Number of atoms:                 29
+ Charge:                           0
+ Number of electrons:            104
+ Number of core electrons:        28
+ Spin multiplicity:                1
+ 
+                 Cartesian coordinates [bohr]      Atomic mass [AMU]  Z
+   1  O     4.31918638   -4.30948641    0.32630090    15.994915       8
+   2  O    -6.77449619   -0.46589308   -0.93259307    15.994915       8
+   3  N     0.05332807    3.40150325    0.50704753    14.003074       7
+   4  H     0.11142959    5.30375826    0.51268459     1.007825       1
+   5  C    -2.43752182   -0.26165526    0.16657558    12.000000       6
+   6  C     2.32642105    2.14677423    0.28408253    12.000000       6
+   7  C    -2.27521703    2.28989264    0.16862404    12.000000       6
+   8  C    -4.84185061   -1.55476083   -0.25798352    12.000000       6
+   9  C    -0.11580998   -1.80478672    0.79332215    12.000000       6
+  10  H    -0.15619531   -2.40446296    2.77969453     1.007825       1
+  11  H    -0.09643839   -3.55162498   -0.28923581     1.007825       1
+  12  C     2.32126965   -0.40890083    0.25918350    12.000000       6
+  13  C     4.52662162   -2.03847781   -0.09932589    12.000000       6
+  14  C    -4.38501877    4.13697521   -0.17212192    12.000000       6
+  15  H    -3.79241955    6.01777049    0.42186813     1.007825       1
+  16  H    -4.95157189    4.22569596   -2.15066707     1.007825       1
+  17  H    -6.04550789    3.57387461    0.89274253     1.007825       1
+  18  C    -4.90541344   -4.37434370    0.16179457    12.000000       6
+  19  H    -6.85399319   -5.01989116    0.09494740     1.007825       1
+  20  H    -3.83114004   -5.33678689   -1.31410421     1.007825       1
+  21  H    -4.05584926   -4.89402595    1.96567233     1.007825       1
+  22  C     7.03723427   -1.07709665   -1.05061214    12.000000       6
+  23  H     6.85144962    0.38275647   -2.48297352     1.007825       1
+  24  H     8.14684932   -0.31072389    0.50957032     1.007825       1
+  25  H     8.06629219   -2.67691233   -1.82830814     1.007825       1
+  26  C     4.52425757    3.92227397    0.09169707    12.000000       6
+  27  H     6.20251200    3.19883957    1.01297068     1.007825       1
+  28  H     4.97760098    4.31480977   -1.88088977     1.007825       1
+  29  H     4.04633260    5.71409150    0.98561312     1.007825       1
+ 
+ This molecule is an asymmetric top.
+ 
+ Rotational constants [cm-1]: 
+      0.035961149662      0.016371389688      0.011591113054
+ 
+ Point group: C1  
+ Computational point group: C1  
+ 
+ Cartesian coordinates in standard orientation [bohr]
+   1  O     4.47799634    4.14676175    0.30364016
+   2  O    -6.72350743    0.60489970   -0.88351745
+   3  N     0.00938380   -3.44838204    0.49037715
+   4  H     0.01674511   -5.35151776    0.48898561
+   5  C    -2.38533481    0.28109677    0.18167805
+   6  C     2.31339688   -2.25388486    0.25434716
+   7  C    -2.29116345   -2.27386137    0.17365265
+   8  C    -4.75744525    1.63938247   -0.21997029
+   9  C    -0.01859645    1.75948270    0.79595521
+  10  H    -0.02793453    2.35274055    2.78464215
+  11  H     0.03918991    3.50913842   -0.28066751
+  12  C     2.37625570    0.30109339    0.23833306
+  13  C     4.62153083    1.87260522   -0.13142027
+  14  C    -4.45201998   -4.06278516   -0.15730946
+  15  H    -3.90534224   -5.96087281    0.42561046
+  16  H    -5.03569308   -4.12912190   -2.13175111
+  17  H    -6.08878706   -3.45952589    0.92218787
+  18  C    -4.74256856    4.45810082    0.21003786
+  19  H    -6.67367840    5.15560325    0.16035607
+  20  H    -3.65419353    5.39696584   -1.27070847
+  21  H    -3.86581495    4.94833867    2.00914148
+  22  C     7.09832589    0.84813150   -1.10523492
+  23  H     6.86281959   -0.60099253   -2.54117451
+  24  H     8.19886884    0.04674063    0.44373891
+  25  H     8.16379363    2.42278544   -1.88525093
+  26  C     4.46155405   -4.08662514    0.03898532
+  27  H     6.16543795   -3.41156577    0.94987216
+  28  H     4.88932305   -4.48387640   -1.93836355
+  29  H     3.94276314   -5.86832890    0.93033032
+ 
+ Nuclear repulsion energy [au]:        900.765597206524
+ 
+ 
+ Basis set information:
+ 
+ Maximum angular momentum: g
+ Maximum number of contracted Gaussians:   10
+ Maximum number of primitive Gaussians:    14
+ Spherical harmonic GTOs are used.
+ 
+ 
+ Conventional basis set:
+ 
+   1  O  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   2  O  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   3  N  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   4  H  def2-tzvp [ 5s 1p | 3s 1p ]
+   5  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   6  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   7  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   8  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   9  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  10  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  11  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  12  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  13  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  14  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  15  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  16  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  17  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  18  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  19  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  20  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  21  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  22  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  23  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  24  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  25  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  26  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  27  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  28  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  29  H  def2-tzvp [ 5s 1p | 3s 1p ]
+ 
+ Total number of basis functions:    524
+ 
+ 
+ Fitting basis set for the SCF calculation:
+ 
+   1  O  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   2  O  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   3  N  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   4  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+   5  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   6  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   7  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   8  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   9  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  10  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  11  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  12  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  13  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  14  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  15  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  16  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  17  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  18  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  19  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  20  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  21  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  22  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  23  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  24  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  25  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  26  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  27  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  28  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  29  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+ 
+ Total number of basis functions:   1326
+ 
+ 
+ Fitting basis set for the correlation calculation:
+ 
+   1  O  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   2  O  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   3  N  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   4  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+   5  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   6  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   7  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   8  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   9  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  10  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  11  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  12  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  13  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  14  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  15  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  16  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  17  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  18  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  19  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  20  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  21  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  22  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  23  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  24  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  25  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  26  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  27  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  28  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  29  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+ 
+ Total number of basis functions:   1289
+ 
+ 
+ Initializing the SAD routines for the initial guess...
+ Checking the files required for the initial guess...
+ Density files have not been found for the initial guess.
+ Generating SCFDENSITIES.O.def2-tzvp.0
+ Generating SCFDENSITIES.N.def2-tzvp.0
+ Generating SCFDENSITIES.H.def2-tzvp.0
+ Generating SCFDENSITIES.C.def2-tzvp.0
+ CPU time [min]:     0.103                   Wall time [min]:     1.086
+ 
+ Character table for point group C1:
+ 
+          E  
+    A     1
+ 
+ Number of basis functions per irrep:
+    A     524
+ 
+ 
+ Calculation of overlap integrals...
+ CPU time [min]:     0.105                   Wall time [min]:     1.089
+ 
+ Calculation of the square root of the overlap matrix...
+ Minimum eigenvalue of the overlap matrix: 0.347076E-04
+ CPU time [min]:     0.287                   Wall time [min]:     1.097
+ 
+ Calculation of kinetic energy integrals...
+ CPU time [min]:     0.289                   Wall time [min]:     1.097
+ Calculation of dipole moment integrals...
+ CPU time [min]:     0.294                   Wall time [min]:     1.097
+ Calculation of second moment integrals...
+ CPU time [min]:     0.301                   Wall time [min]:     1.097
+ Calculation of third moment integrals...
+ CPU time [min]:     0.311                   Wall time [min]:     1.098
+ Calculation of linear momentum integrals...
+ CPU time [min]:     0.315                   Wall time [min]:     1.098
+ Calculation of angular momentum integrals...
+ CPU time [min]:     0.317                   Wall time [min]:     1.098
+ Calculation of nuclear attraction integrals...
+ CPU time [min]:     0.321                   Wall time [min]:     1.098
+ 
+ Calculation of prescreening integrals...
+ CPU time [min]:     0.417                   Wall time [min]:     1.101
+ 
+ Calculation of two-center Coulomb integrals...
+   1% done.
+  12% done.
+  23% done.
+  34% done.
+  45% done.
+  57% done.
+  69% done.
+  80% done.
+  91% done.
+ 100% done.
+ CPU time [min]:     0.432                   Wall time [min]:     1.101
+ 
+ Cholesky decomposition of the two-center matrix...
+ Reciprocal of the condition number:  0.207097E-05
+ CPU time [min]:     0.536                   Wall time [min]:     1.110
+ 
+
+ ************************ 2026-01-24 17:24:32 *************************
+ Executing scf...
+
+ Initializing PCM calculation...
+ CPU time [min]:     5.991                   Wall time [min]:     5.043
+ 
+ Allocation of 50.0 Gbytes of memory...
+ ======================================================================
+ ITERATION STEP   1
+ CPU time [min]:     6.111                   Wall time [min]:     5.047
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:     6.946                   Wall time [min]:     5.074
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:     6.992                   Wall time [min]:     5.075
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:     7.239                   Wall time [min]:     5.083
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    10.096                   Wall time [min]:     5.190
+ 
+ RMS of [F,P]:                                         0.06785261330706
+ RMS of difference density:                            0.01094386123763
+ Gap [au]:  0.29584077
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   1 IS       -615.0943456008726571 [AU]
+ ======================================================================
+ ITERATION STEP   2
+ CPU time [min]:    10.256                   Wall time [min]:     5.195
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    11.047                   Wall time [min]:     5.221
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    11.094                   Wall time [min]:     5.222
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    11.352                   Wall time [min]:     5.230
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    14.184                   Wall time [min]:     5.336
+ 
+ RMS of [F,P]:                                         0.00360194688873
+ RMS of difference density:                            0.00637807270997
+ Gap [au]:  0.36139038
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   2 IS       -629.3239301590815558 [AU]
+ ======================================================================
+ ITERATION STEP   3
+ CPU time [min]:    14.652                   Wall time [min]:     5.361
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    15.426                   Wall time [min]:     5.387
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    15.470                   Wall time [min]:     5.389
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    15.717                   Wall time [min]:     5.396
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    18.587                   Wall time [min]:     5.503
+ 
+ RMS of [F,P]:                                         0.00213911728304
+ RMS of difference density:                            0.00173754204543
+ Gap [au]:  0.37342516
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   3 IS       -629.5821117106986549 [AU]
+ ======================================================================
+ ITERATION STEP   4
+ CPU time [min]:    18.891                   Wall time [min]:     5.517
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    19.694                   Wall time [min]:     5.545
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    19.745                   Wall time [min]:     5.546
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    19.993                   Wall time [min]:     5.554
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    22.808                   Wall time [min]:     5.660
+ 
+ RMS of [F,P]:                                         0.00032091984321
+ RMS of difference density:                            0.00062059418462
+ Gap [au]:  0.37586930
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   4 IS       -629.6899747741856572 [AU]
+ ======================================================================
+ ITERATION STEP   5
+ CPU time [min]:    23.186                   Wall time [min]:     5.677
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    23.961                   Wall time [min]:     5.703
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    24.013                   Wall time [min]:     5.705
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    24.261                   Wall time [min]:     5.712
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    27.061                   Wall time [min]:     5.817
+ 
+ RMS of [F,P]:                                         0.00010360373684
+ RMS of difference density:                            0.00015352934124
+ Gap [au]:  0.37874455
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   5 IS       -629.6942328085322060 [AU]
+ ======================================================================
+ ITERATION STEP   6
+ CPU time [min]:    27.369                   Wall time [min]:     5.846
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    28.147                   Wall time [min]:     5.873
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    28.195                   Wall time [min]:     5.874
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    28.444                   Wall time [min]:     5.882
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    31.291                   Wall time [min]:     5.988
+ 
+ RMS of [F,P]:                                         0.00003661084733
+ RMS of difference density:                            0.00010799003101
+ Gap [au]:  0.37891065
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   6 IS       -629.6948181934253626 [AU]
+ ======================================================================
+ ITERATION STEP   7
+ CPU time [min]:    31.594                   Wall time [min]:     6.003
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    32.362                   Wall time [min]:     6.028
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    32.410                   Wall time [min]:     6.030
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    32.656                   Wall time [min]:     6.038
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    35.462                   Wall time [min]:     6.143
+ 
+ RMS of [F,P]:                                         0.00001679851577
+ RMS of difference density:                            0.00004642751897
+ Gap [au]:  0.37921825
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   7 IS       -629.6949234084231648 [AU]
+ ======================================================================
+ ITERATION STEP   8
+ CPU time [min]:    35.750                   Wall time [min]:     6.155
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    36.634                   Wall time [min]:     6.209
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    36.677                   Wall time [min]:     6.210
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    36.924                   Wall time [min]:     6.218
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    39.765                   Wall time [min]:     6.324
+ 
+ RMS of [F,P]:                                         0.00000748835684
+ RMS of difference density:                            0.00003558634868
+ Gap [au]:  0.37942817
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   8 IS       -629.6949489288997484 [AU]
+ ======================================================================
+ ITERATION STEP   9
+ CPU time [min]:    40.341                   Wall time [min]:     6.405
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    41.113                   Wall time [min]:     6.430
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    41.168                   Wall time [min]:     6.432
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    41.417                   Wall time [min]:     6.440
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    44.218                   Wall time [min]:     6.545
+ 
+ RMS of [F,P]:                                         0.00000268828976
+ RMS of difference density:                            0.00000880058950
+ Gap [au]:  0.37940759
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   9 IS       -629.6949568035877292 [AU]
+ ======================================================================
+ ITERATION STEP  10
+ CPU time [min]:    44.577                   Wall time [min]:     6.559
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    45.413                   Wall time [min]:     6.588
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    45.461                   Wall time [min]:     6.590
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    45.722                   Wall time [min]:     6.598
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    48.671                   Wall time [min]:     6.707
+ 
+ RMS of [F,P]:                                         0.00000099061472
+ RMS of difference density:                            0.00000376118788
+ Gap [au]:  0.37940563
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  10 IS       -629.6949574848160864 [AU]
+ ======================================================================
+ ITERATION STEP  11
+ CPU time [min]:    49.122                   Wall time [min]:     6.864
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    49.904                   Wall time [min]:     6.891
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    49.949                   Wall time [min]:     6.893
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    50.234                   Wall time [min]:     6.902
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    53.196                   Wall time [min]:     7.012
+ 
+ RMS of [F,P]:                                         0.00000021359331
+ RMS of difference density:                            0.00000066681656
+ Gap [au]:  0.37939748
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  11 IS       -629.6949575994276529 [AU]
+ ======================================================================
+ ITERATION STEP  12
+ CPU time [min]:    53.821                   Wall time [min]:     7.142
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    54.599                   Wall time [min]:     7.172
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    54.642                   Wall time [min]:     7.173
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    54.886                   Wall time [min]:     7.181
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    57.683                   Wall time [min]:     7.286
+ 
+ RMS of [F,P]:                                         0.00000007096131
+ RMS of difference density:                            0.00000019104838
+ Gap [au]:  0.37939549
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  12 IS       -629.6949576041865839 [AU]
+ ======================================================================
+ ITERATION STEP  13
+ CPU time [min]:    58.025                   Wall time [min]:     7.302
+ 
+ Constructing Fock-matrix...
+ 
+ First step of Coulomb + first step of exchange...
+ Exchange contribution is evaluated for MOs 1 to 52.
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    58.816                   Wall time [min]:     7.329
+ 
+ Fitting and assembly step of exchange...
+ CPU time [min]:    58.860                   Wall time [min]:     7.330
+ 
+ Second step of Coulomb...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:    59.105                   Wall time [min]:     7.338
+ 
+ Calculating solvent polarization...
+ CPU time [min]:    61.923                   Wall time [min]:     7.443
+ 
+ RMS of [F,P]:                                         0.00000002818589
+ RMS of difference density:                            0.00000006809161
+ Gap [au]:  0.37939436
+ ALPHA OCC:  52
+ BETA  OCC:  52
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  13 IS       -629.6949576046499715 [AU]
+ ======================================================================
+ 
+ SUCCESS...
+ THE SCF ITERATION HAS CONVERGED!
+ 
+                   A   
+ FINAL ALPHA OCC:  52
+ FINAL BETA  OCC:  52
+ 
+ ***FINAL HARTREE-FOCK ENERGY:       -629.6949576046499715 [AU]
+ 
+ RETURNING FROM SCF ALGORITHM
+ ======================================================================
+
+ ************************ 2026-01-24 17:32:02 *************************
+ Executing integ...
+
+ Allocation of 50.0 Gbytes of memory...
+ 
+ 
+ Basis set information:
+ 
+ Maximum angular momentum: g
+ Maximum number of contracted Gaussians:   10
+ Maximum number of primitive Gaussians:    14
+ Spherical harmonic GTOs are used.
+ 
+ 
+ Conventional basis set:
+ 
+   1  O  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   2  O  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   3  N  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   4  H  def2-tzvp [ 5s 1p | 3s 1p ]
+   5  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   6  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   7  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   8  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+   9  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  10  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  11  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  12  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  13  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  14  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  15  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  16  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  17  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  18  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  19  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  20  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  21  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  22  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  23  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  24  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  25  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  26  C  def2-tzvp [ 11s 6p 2d 1f | 5s 3p 2d 1f ]
+  27  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  28  H  def2-tzvp [ 5s 1p | 3s 1p ]
+  29  H  def2-tzvp [ 5s 1p | 3s 1p ]
+ 
+ Total number of basis functions:    524
+ 
+ 
+ Fitting basis set for the SCF calculation:
+ 
+   1  O  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   2  O  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   3  N  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 4d 2f 1g ]
+   4  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+   5  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   6  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   7  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   8  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+   9  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  10  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  11  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  12  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  13  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  14  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  15  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  16  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  17  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  18  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  19  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  20  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  21  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  22  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  23  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  24  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  25  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  26  C  def2-qzvpp-ri-jk [ 14s 10p 6d 2f 1g | 10s 8p 5d 1f 1g ]
+  27  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  28  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+  29  H  def2-qzvpp-ri-jk [ 4s 2p 2d | 2s 2p 2d ]
+ 
+ Total number of basis functions:   1326
+ 
+ 
+ Fitting basis set for the correlation calculation:
+ 
+   1  O  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   2  O  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   3  N  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   4  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+   5  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   6  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   7  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   8  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+   9  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  10  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  11  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  12  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  13  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  14  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  15  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  16  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  17  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  18  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  19  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  20  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  21  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  22  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  23  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  24  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  25  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  26  C  def2-tzvp-ri [ 8s 6p 5d 3f 1g | 8s 6p 4d 3f 1g ]
+  27  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  28  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+  29  H  def2-tzvp-ri [ 4s 3p 2d | 4s 2p 1d ]
+ 
+ Total number of basis functions:   1289
+ 
+ 
+ Calculation of prescreening integrals...
+ CPU time [min]:     0.110                   Wall time [min]:     0.024
+ 
+ Calculation of two-center Coulomb integrals...
+   1% done.
+  12% done.
+  23% done.
+  34% done.
+  46% done.
+  57% done.
+  69% done.
+  80% done.
+  92% done.
+ 100% done.
+ CPU time [min]:     0.145                   Wall time [min]:     0.025
+ 
+ Cholesky decomposition of the inverse of the two-center matrix...
+ CPU time [min]:     0.228                   Wall time [min]:     0.034
+ 
+ Calculation of three-center Coulomb integrals...
+   1% done.
+  13% done.
+  24% done.
+  35% done.
+  47% done.
+  59% done.
+  71% done.
+  82% done.
+  93% done.
+ 100% done.
+ CPU time [min]:     4.868                   Wall time [min]:     0.878
+
+ ************************ 2026-01-24 17:32:56 *************************
+ Executing drpa...
+
+ Three-index integral transformation
+ Allocation of 50.0 Gbytes of memory...
+ 
+ Minimal memory requirement for (ai|P) and (ij|P) integrals:    20.2 MB
+
+ Calculating (ai|P) and (ij|P) integrals...
+ Number of integral batches:    1
+ Occupied indices per batch:   38
+ 
+ Transforming integrals of batch 1...
+ CPU time [min]:     0.254                   Wall time [min]:     0.086
+
+ ************************ 2026-01-24 17:33:10 *************************
+ Executing cis...
+
+ Allocation of 50.0 Gbytes of memory...
+ 
+ Read MO coeff. matrix and orbital energies...
+ 
+ Calculating (ab|P) integrals...
+ CPU time [min]:    20.411                   Wall time [min]:     1.622
+ 
+ Retrieve a J_ai^Q fitted MO integral list...
+ Retrieve a J_ij^Q fitted MO integral list in upper triangle form...
+ Retrieve a J_ab^Q fitted MO integral list in upper triangle form...
+ CPU time [min]:    20.421                   Wall time [min]:     1.631
+ Unpack the upper triangle lists...
+ 
+ Generate singlet trial vectors...
+ 
+ Starting DF-CIS iteration
+ Incore algorithm
+ Singlet excited states
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  1         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.498704328         0.1962533             0.1234665
+ for root  2        -629.416773575         0.2781840             0.1150481
+ for root  3        -629.410723773         0.2842338             0.1019706
+ for root  4        -629.404120622         0.2908370             0.1531577
+ for root  5        -629.376646163         0.3183114             0.0467725
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    21.126                   Wall time [min]:     1.717
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  2         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.521335424        -0.0226311             0.0472540
+ for root  2        -629.450012396        -0.0332388             0.0472557
+ for root  3        -629.434494199        -0.0237704             0.0302449
+ for root  4        -629.422608773        -0.0184882             0.0428446
+ for root  5        -629.394313561        -0.0176674             0.0289724
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    21.611                   Wall time [min]:     1.736
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  3         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525325469        -0.0039900             0.0140394
+ for root  2        -629.454084875        -0.0040725             0.0194260
+ for root  3        -629.436686249        -0.0021921             0.0167624
+ for root  4        -629.427486551        -0.0048778             0.0370923
+ for root  5        -629.399152059        -0.0048385             0.0273789
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    22.093                   Wall time [min]:     1.754
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  4         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525619047        -0.0002936             0.0047899
+ for root  2        -629.475495196        -0.0214103             0.1071819
+ for root  3        -629.453640633        -0.0169544             0.0233589
+ for root  4        -629.436653875        -0.0091673             0.0098788
+ for root  5        -629.419967973        -0.0208159             0.0440558
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    22.571                   Wall time [min]:     1.772
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  5         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525660191        -0.0000411             0.0019411
+ for root  2        -629.495889034        -0.0203938             0.0417774
+ for root  3        -629.456250590        -0.0026100             0.0524758
+ for root  4        -629.438405952        -0.0017521             0.1026930
+ for root  5        -629.434988600        -0.0150206             0.1099405
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    23.049                   Wall time [min]:     1.789
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  6         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525665405        -0.0000052             0.0007023
+ for root  2        -629.498247688        -0.0023587             0.0183588
+ for root  3        -629.486592179        -0.0303416             0.0775279
+ for root  4        -629.453240465        -0.0148345             0.0153341
+ for root  5        -629.436754499        -0.0017659             0.0037343
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    23.517                   Wall time [min]:     1.806
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  7         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666129        -0.0000007             0.0002609
+ for root  2        -629.498911564        -0.0006639             0.0088701
+ for root  3        -629.494509405        -0.0079172             0.0233741
+ for root  4        -629.453537110        -0.0002966             0.0047228
+ for root  5        -629.436776071        -0.0000216             0.0015080
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    24.002                   Wall time [min]:     1.825
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  8         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666210        -0.0000001             0.0000771
+ for root  2        -629.499033743        -0.0001222             0.0032254
+ for root  3        -629.495154867        -0.0006455             0.0071491
+ for root  4        -629.453566532        -0.0000294             0.0016840
+ for root  5        -629.436779529        -0.0000035             0.0006043
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    24.518                   Wall time [min]:     1.846
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration  9         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216        -0.0000000             0.0000193
+ for root  2        -629.499046917        -0.0000132             0.0010628
+ for root  3        -629.495217466        -0.0000626             0.0021158
+ for root  4        -629.453571061        -0.0000045             0.0005961
+ for root  5        -629.436780236        -0.0000007             0.0002423
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    25.040                   Wall time [min]:     1.867
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 10         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216        -0.0000000             0.0000051
+ for root  2        -629.499048320        -0.0000014             0.0003149
+ for root  3        -629.495222979        -0.0000055             0.0006160
+ for root  4        -629.453571601        -0.0000005             0.0002053
+ for root  5        -629.436780340        -0.0000001             0.0000957
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    25.590                   Wall time [min]:     1.888
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 11         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216        -0.0000000             0.0000015
+ for root  2        -629.499048446        -0.0000001             0.0001025
+ for root  3        -629.495223433        -0.0000005             0.0002152
+ for root  4        -629.453571656        -0.0000001             0.0000796
+ for root  5        -629.436780353        -0.0000000             0.0000357
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    26.064                   Wall time [min]:     1.906
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 12         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216        -0.0000000             0.0000005
+ for root  2        -629.499048459        -0.0000000             0.0000321
+ for root  3        -629.495223479        -0.0000000             0.0000683
+ for root  4        -629.453571664        -0.0000000             0.0000280
+ for root  5        -629.436780355        -0.0000000             0.0000128
+ ============================================================================
+  1/ 5 states have converged.
+ 
+ CPU time [min]:    26.555                   Wall time [min]:     2.379
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 13         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216         0.0000000             0.0000005
+ for root  2        -629.499048460        -0.0000000             0.0000093
+ for root  3        -629.495223484        -0.0000000             0.0000222
+ for root  4        -629.453571664        -0.0000000             0.0000108
+ for root  5        -629.436780355        -0.0000000             0.0000051
+ ============================================================================
+  1/ 5 states have converged.
+ 
+ CPU time [min]:    27.041                   Wall time [min]:     2.428
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 14         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216         0.0000000             0.0000005
+ for root  2        -629.499048460        -0.0000000             0.0000027
+ for root  3        -629.495223484        -0.0000000             0.0000067
+ for root  4        -629.453571665        -0.0000000             0.0000037
+ for root  5        -629.436780355        -0.0000000             0.0000020
+ ============================================================================
+  1/ 5 states have converged.
+ 
+ CPU time [min]:    27.508                   Wall time [min]:     2.448
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 15         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216         0.0000000             0.0000005
+ for root  2        -629.499048460        -0.0000000             0.0000008
+ for root  3        -629.495223484        -0.0000000             0.0000019
+ for root  4        -629.453571665        -0.0000000             0.0000012
+ for root  5        -629.436780355        -0.0000000             0.0000006
+ ============================================================================
+  3/ 5 states have converged.
+ 
+ CPU time [min]:    27.886                   Wall time [min]:     2.460
+ 
+ Calculate sigma vector...
+ 
+    Calculate Coulomb term...
+    Calculate HF-exchange term...
+ 
+                         Total              Energy                Norm of
+ Iteration 16         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1        -629.525666216         0.0000000             0.0000005
+ for root  2        -629.499048460         0.0000000             0.0000008
+ for root  3        -629.495223484        -0.0000000             0.0000005
+ for root  4        -629.453571665        -0.0000000             0.0000004
+ for root  5        -629.436780355         0.0000000             0.0000006
+ ============================================================================
+  5/ 5 states have converged.
+ 
+ CPU time [min]:    28.029                   Wall time [min]:     2.464
+ 
+ 
+ The iteration has converged in 16 steps for all the roots.
+ 
+ Final result of the CIS calculations for the excited states:
+ Singlet excited states:
+ 
+ Excited      Total          Excitation     Excitation     Excitation        Absorption
+  state    energy [au]       energy [au]    energy [eV]  energy [cm^-1]    wavelength [nm]
+ =========================================================================================
+    1    -629.525666216      0.16929139       4.6067        37155.17          269.14
+    2    -629.499048460      0.19590914       5.3310        42997.09          232.57
+    3    -629.495223484      0.19973412       5.4350        43836.58          228.12
+    4    -629.453571665      0.24138594       6.5684        52978.09          188.76
+    5    -629.436780355      0.25817725       7.0254        56663.36          176.48
+ =========================================================================================
+ 
+ CPU time [min]:    28.125                   Wall time [min]:     2.469
+ 
+ 
+ Calculate oscillator and rotational strength...
+ 
+ Final result for the singlet excited states:
+ 
+               Components of transition electric
+ Excited       dipole moment in length gauge [au]         Dipole          Oscillator
+  state        x              y              z         strength [au]       strength
+ ===================================================================================
+    1     -1.2568165     -0.0866814     -0.0401766       1.5887155         0.1793039
+    2      0.0941685     -0.0305569      0.0585167       0.0132256         0.0017273
+    3      0.0075723     -0.1405420      0.0489203       0.0222026         0.0029564
+    4     -0.1445029      2.1593841     -0.1220791       4.6987242         0.7561373
+    5      0.0225835     -0.1474099      0.0015246       0.0222420         0.0038283
+ ===================================================================================
+ 
+ 
+                   Components of transition electric
+ Excited          dipole moment in velocity gauge [au]    Dipole          Oscillator
+  state        x              y              z         strength [au]       strength
+ ===================================================================================
+    1     -0.1143920      0.0190292      0.0088588       0.0135261         0.0532656
+    2      0.0057856     -0.0045328      0.0132045       0.0002284         0.0007772
+    3     -0.0045402     -0.0101815      0.0086258       0.0001987         0.0006631
+    4      0.0097662      0.1889286      0.0137251       0.0359778         0.0993645
+    5     -0.0050174     -0.0203892      0.0921639       0.0089351         0.0230722
+ ===================================================================================
+ 
+                   Components of transition
+ Excited          magnetic dipole moment [au]        Rotatory strength  Rotatory strength
+  state        x              y              z          length [au]       velocity [au]
+ ========================================================================================
+    1     -0.0431426     -0.0340323      0.8419242       0.0233466         0.0693832
+    2     -0.3922501     -0.0992765     -0.1907328      -0.0450651        -0.0221425
+    3      0.0657603      0.5103587      0.0661221      -0.0679942        -0.0246549
+    4      0.0908665      0.0316852     -0.0482594       0.0611816         0.0257318
+    5     -0.0105139     -0.0199301      0.0297117       0.0027458         0.0123847
+ ========================================================================================
+ 
+ CPU time [min]:    28.127                   Wall time [min]:     2.470
+ 
+ Starting DF-MP2 calculation for root  1
+ 
+ Iteration   1
+ 
+ Assemble transformed J^Q_ia integrals...
+ Calculate double excitation operators and Y^Q_ai vector...
+ CPU time [min]:    28.820                   Wall time [min]:     2.747
+ 
+ The DF-MP2 calculation has been performed.
+ 
+ Final result in atomic units for root  1:
+ 
+ Total reference energy:         -629.694957604650
+ Total MP2 energy:               -632.114494901928
+ MP2 correlation energy:           -2.419537297278
+ 
+ ============================================================================
+ 
+ 
+ Calculate pre-optimized initial guesses for adc(2) calculations
+ Incore algorithm
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  1         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.131051178        -0.0382402             0.0679176
+ for root  2           0.149945701        -0.0459634             0.0790800
+ for root  3           0.155299754        -0.0444344             0.0810817
+ for root  4           0.202106144        -0.0392798             0.0737552
+ for root  5           0.223458795        -0.0347185             0.0423362
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    35.080                   Wall time [min]:     3.341
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  2         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.121092017        -0.0099592             0.0280422
+ for root  2           0.136248012        -0.0136977             0.0362294
+ for root  3           0.141137338        -0.0141624             0.0357614
+ for root  4           0.191489886        -0.0106163             0.0407814
+ for root  5           0.216603573        -0.0068552             0.0213492
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    41.015                   Wall time [min]:     3.998
+ 
+ Calculate sigma vector for root  4
+ 
+                       Excitation           Energy                Norm of
+ Iteration  3         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.121078054        -0.0000140             0.0279624
+ for root  2           0.136242431        -0.0000056             0.0362224
+ for root  3           0.141135862        -0.0000015             0.0357605
+ for root  4           0.185708895        -0.0057810             0.0403751
+ for root  5           0.216114058        -0.0004895             0.0294284
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    42.250                   Wall time [min]:     4.139
+ 
+ Calculate sigma vector for root  4
+ 
+                       Excitation           Energy                Norm of
+ Iteration  4         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.121072469        -0.0000056             0.0278678
+ for root  2           0.136235316        -0.0000071             0.0361892
+ for root  3           0.141133629        -0.0000022             0.0357306
+ for root  4           0.180122636        -0.0055863             0.0321942
+ for root  5           0.211152763        -0.0049613             0.0515079
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    43.472                   Wall time [min]:     4.252
+ 
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  5         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.121072469         0.0000000             0.0278678
+ for root  2           0.136232825        -0.0000025             0.0362418
+ for root  3           0.141127615        -0.0000060             0.0357660
+ for root  4           0.178456777        -0.0016659             0.0151442
+ for root  5           0.206044309        -0.0051085             0.0251439
+ ============================================================================
+  5/ 5 states have converged.
+ 
+ CPU time [min]:    44.660                   Wall time [min]:     4.363
+ 
+ 
+ The micro iteration of pre-optimization has converged in  5 steps.
+ 
+ 
+ ============================================================================
+ Restart
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  6         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.126492662         0.0054210             0.0282868
+ for root  2           0.142581897         0.0063491             0.0368265
+ for root  3           0.147391389         0.0062638             0.0362775
+ for root  4           0.187265291         0.0088085             0.0137773
+ for root  5           0.210785771         0.0047415             0.0253093
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    50.530                   Wall time [min]:     4.893
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  7         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125678995        -0.0008137             0.0085897
+ for root  2           0.140853686        -0.0017282             0.0147764
+ for root  3           0.145567693        -0.0018237             0.0161315
+ for root  4           0.186893951        -0.0003713             0.0084481
+ for root  5           0.209691092        -0.0010947             0.0173342
+ ============================================================================
+  1/ 5 states have converged.
+ 
+ CPU time [min]:    56.397                   Wall time [min]:     5.420
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  8         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125553067        -0.0001259             0.0035777
+ for root  2           0.140401952        -0.0004517             0.0080180
+ for root  3           0.145058033        -0.0005097             0.0082995
+ for root  4           0.186786789        -0.0001072             0.0052469
+ for root  5           0.209095232        -0.0005959             0.0102812
+ ============================================================================
+  2/ 5 states have converged.
+ 
+ CPU time [min]:    61.257                   Wall time [min]:     5.867
+ 
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration  9         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125551952        -0.0000011             0.0034055
+ for root  2           0.140352155        -0.0000498             0.0017903
+ for root  3           0.145003925        -0.0000541             0.0018508
+ for root  4           0.186762823        -0.0000240             0.0034943
+ for root  5           0.208861755        -0.0002335             0.0058448
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    64.788                   Wall time [min]:     6.194
+ 
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 10         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125551952         0.0000000             0.0034055
+ for root  2           0.140352155         0.0000000             0.0017903
+ for root  3           0.145003925         0.0000000             0.0018508
+ for root  4           0.186762823         0.0000000             0.0034943
+ for root  5           0.208802111        -0.0000596             0.0029487
+ ============================================================================
+  5/ 5 states have converged.
+ 
+ CPU time [min]:    65.988                   Wall time [min]:     6.304
+ 
+ 
+ The micro iteration of pre-optimization has converged in  5 steps.
+ 
+ 
+ ============================================================================
+ Restart
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 11         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125060624        -0.0004912             0.0034851
+ for root  2           0.139898321        -0.0004536             0.0015620
+ for root  3           0.144574334        -0.0004296             0.0018429
+ for root  4           0.185661726        -0.0011008             0.0033428
+ for root  5           0.208331113        -0.0004710             0.0031790
+ ============================================================================
+  0/ 5 states have converged.
+ 
+ CPU time [min]:    71.827                   Wall time [min]:     6.846
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 12         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125049930        -0.0000107             0.0010444
+ for root  2           0.139894827        -0.0000035             0.0008420
+ for root  3           0.144570706        -0.0000036             0.0008899
+ for root  4           0.185649295        -0.0000124             0.0015765
+ for root  5           0.208294523        -0.0000366             0.0041491
+ ============================================================================
+  2/ 5 states have converged.
+ 
+ CPU time [min]:    77.662                   Wall time [min]:     7.384
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 13         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125048564        -0.0000014             0.0004135
+ for root  2           0.139893680        -0.0000011             0.0007698
+ for root  3           0.144570706         0.0000000             0.0008899
+ for root  4           0.185645097        -0.0000042             0.0005223
+ for root  5           0.208239473        -0.0000551             0.0034356
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    81.212                   Wall time [min]:     7.752
+ 
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 14         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125048564         0.0000000             0.0004135
+ for root  2           0.139893680         0.0000000             0.0007698
+ for root  3           0.144570706         0.0000000             0.0008899
+ for root  4           0.185645097         0.0000000             0.0005223
+ for root  5           0.208209809        -0.0000297             0.0024235
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    82.382                   Wall time [min]:     7.858
+ 
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 15         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125048564         0.0000000             0.0004135
+ for root  2           0.139893680         0.0000000             0.0007698
+ for root  3           0.144570706         0.0000000             0.0008899
+ for root  4           0.185645097         0.0000000             0.0005223
+ for root  5           0.208198842        -0.0000110             0.0015801
+ ============================================================================
+  4/ 5 states have converged.
+ 
+ CPU time [min]:    83.572                   Wall time [min]:     7.966
+ 
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 16         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125048564         0.0000000             0.0004135
+ for root  2           0.139893680         0.0000000             0.0007698
+ for root  3           0.144570706         0.0000000             0.0008899
+ for root  4           0.185645097         0.0000000             0.0005223
+ for root  5           0.208194507        -0.0000043             0.0007260
+ ============================================================================
+  5/ 5 states have converged.
+ 
+ CPU time [min]:    84.729                   Wall time [min]:     8.072
+ 
+ 
+ The micro iteration of pre-optimization has converged in  6 steps.
+ 
+ 
+ ============================================================================
+ Restart
+ 
+ Calculate sigma vector for root  1
+ Calculate sigma vector for root  2
+ Calculate sigma vector for root  3
+ Calculate sigma vector for root  4
+ Calculate sigma vector for root  5
+ 
+                       Excitation           Energy                Norm of
+ Iteration 17         energy [au]        decrease [au]        residual vector
+ ============================================================================
+ for root  1           0.125104208         0.0000558             0.0004152
+ for root  2           0.139945620         0.0000525             0.0007616
+ for root  3           0.144618765         0.0000481             0.0008661
+ for root  4           0.185795994         0.0001509             0.0005251
+ for root  5           0.208263228         0.0000687             0.0007380
+ ============================================================================
+  5/ 5 states have converged.
+ 
+ CPU time [min]:    90.531                   Wall time [min]:     8.601
+ 
+ 
+ The micro iteration of pre-optimization has converged in  1 steps.
+ 
+ 
+ ============================================================================
+ 
+ The macro iteration of pre-optimization has converged in 17 steps!
+ 
+ Starting DF-ADC(2) iteration for root  1
+ 
+ Iteration   1
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.989396859        -0.0000062             0.0004144
+ ============================================================================
+ CPU time [min]:    91.860                   Wall time [min]:     8.841
+ 
+ Iteration   2
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.989396338         0.0000005             0.0001357
+ ============================================================================
+ CPU time [min]:    93.214                   Wall time [min]:     9.077
+ 
+ Iteration   3
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.989396442        -0.0000001             0.0000575
+ ============================================================================
+ CPU time [min]:    94.554                   Wall time [min]:     9.324
+ 
+ 
+ The ADC(2) iteration has converged in  3 steps.
+ 
+ Final result in atomic units for root  1:
+ 
+ Total reference energy:         -629.694957604650
+ Total ADC(2) energy:            -631.989396442255
+ ADC(2) excitation energy:          0.125098459672
+ Spin multiplicity:                 1
+ 
+ ============================================================================
+ 
+ 
+ Starting DF-ADC(2) iteration for root  2
+ 
+ Iteration   1
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.974555080        -0.0000058             0.0007616
+ ============================================================================
+ CPU time [min]:    95.849                   Wall time [min]:     9.552
+ 
+ Iteration   2
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.974554886         0.0000002             0.0002280
+ ============================================================================
+ CPU time [min]:    97.120                   Wall time [min]:     9.757
+ 
+ Iteration   3
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.974555097        -0.0000002             0.0001393
+ ============================================================================
+ CPU time [min]:    98.464                   Wall time [min]:    10.082
+ 
+ Iteration   4
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.974555220        -0.0000001             0.0000429
+ ============================================================================
+ CPU time [min]:    99.808                   Wall time [min]:    10.403
+ 
+ 
+ The ADC(2) iteration has converged in  4 steps.
+ 
+ Final result in atomic units for root  2:
+ 
+ Total reference energy:         -629.694957604650
+ Total ADC(2) energy:            -631.974555220279
+ ADC(2) excitation energy:          0.139939681649
+ Spin multiplicity:                 1
+ 
+ ============================================================================
+ 
+ 
+ Starting DF-ADC(2) iteration for root  3
+ 
+ Iteration   1
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.969881472        -0.0000053             0.0008663
+ ============================================================================
+ CPU time [min]:   101.104                   Wall time [min]:    10.734
+ 
+ Iteration   2
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.969881388         0.0000001             0.0002548
+ ============================================================================
+ CPU time [min]:   102.446                   Wall time [min]:    11.036
+ 
+ Iteration   3
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.969881634        -0.0000002             0.0001578
+ ============================================================================
+ CPU time [min]:   103.853                   Wall time [min]:    11.329
+ 
+ Iteration   4
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.969881795        -0.0000002             0.0000561
+ ============================================================================
+ CPU time [min]:   105.259                   Wall time [min]:    11.609
+ 
+ 
+ The ADC(2) iteration has converged in  4 steps.
+ 
+ Final result in atomic units for root  3:
+ 
+ Total reference energy:         -629.694957604650
+ Total ADC(2) energy:            -631.969881794568
+ ADC(2) excitation energy:          0.144613107360
+ Spin multiplicity:                 1
+ 
+ ============================================================================
+ 
+ 
+ Starting DF-ADC(2) iteration for root  4
+ 
+ Iteration   1
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.928719345        -0.0000204             0.0005248
+ ============================================================================
+ CPU time [min]:   106.562                   Wall time [min]:    11.973
+ 
+ Iteration   2
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.928716964         0.0000024             0.0002218
+ ============================================================================
+ CPU time [min]:   107.926                   Wall time [min]:    12.373
+ 
+ Iteration   3
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.928717470        -0.0000005             0.0001276
+ ============================================================================
+ CPU time [min]:   109.228                   Wall time [min]:    12.928
+ 
+ Iteration   4
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.928717525        -0.0000001             0.0000773
+ ============================================================================
+ CPU time [min]:   110.503                   Wall time [min]:    13.276
+ 
+ 
+ The ADC(2) iteration has converged in  4 steps.
+ 
+ Final result in atomic units for root  4:
+ 
+ Total reference energy:         -629.694957604650
+ Total ADC(2) energy:            -631.928717524695
+ ADC(2) excitation energy:          0.185777377233
+ Spin multiplicity:                 1
+ 
+ ============================================================================
+ 
+ 
+ Starting DF-ADC(2) iteration for root  5
+ 
+ Iteration   1
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906239922        -0.0000082             0.0007377
+ ============================================================================
+ CPU time [min]:   111.846                   Wall time [min]:    13.621
+ 
+ Iteration   2
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906239491         0.0000004             0.0003014
+ ============================================================================
+ CPU time [min]:   113.156                   Wall time [min]:    13.946
+ 
+ Iteration   3
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906239914        -0.0000004             0.0002062
+ ============================================================================
+ CPU time [min]:   114.468                   Wall time [min]:    14.215
+ 
+ Iteration   4
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906240259        -0.0000003             0.0001649
+ ============================================================================
+ CPU time [min]:   115.766                   Wall time [min]:    14.546
+ 
+ Iteration   5
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906240624        -0.0000004             0.0001417
+ ============================================================================
+ CPU time [min]:   117.040                   Wall time [min]:    14.825
+ 
+ Iteration   6
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906240849        -0.0000002             0.0001378
+ ============================================================================
+ CPU time [min]:   118.341                   Wall time [min]:    15.153
+ 
+ Iteration   7
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906240822         0.0000000             0.0001377
+ ============================================================================
+ CPU time [min]:   119.672                   Wall time [min]:    15.488
+ 
+ Iteration   8
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906240869        -0.0000000             0.0001189
+ ============================================================================
+ CPU time [min]:   120.951                   Wall time [min]:    15.776
+ 
+ Iteration   9
+ 
+ Calculate similarity transformed basis and Fockian...
+ Calculate the derivative of T1 equations with respect to t1...
+ Assemble transformed J^Q_ia integrals and symmetrize (ia|jb) list...
+ Calculate double excitation operators and Y^Q_ai vector...
+ Calculate double exc. operators contribution to sigma vector...
+ 
+       Total ADC(2)          Energy                Norm of
+       energy [au]        decrease [au]        residual vector
+ ============================================================================
+     -631.906241070        -0.0000002             0.0000960
+ ============================================================================
+ CPU time [min]:   122.272                   Wall time [min]:    16.037
+ 
+ 
+ The ADC(2) iteration has converged in  9 steps.
+ 
+ Final result in atomic units for root  5:
+ 
+ Total reference energy:         -629.694957604650
+ Total ADC(2) energy:            -631.906241070441
+ ADC(2) excitation energy:          0.208253831487
+ Spin multiplicity:                 1
+ 
+ ============================================================================
+ 
+ 
+ Final result of the ADC(2) calculations for the excited states:
+ Singlet states
+ 
+ Excited   Excitation     Excitation     Excitation        Absorption      
+  state    energy [au]    energy [eV]  energy [cm^-1]    wavelength [nm]  
+ ============================================================================
+    1      0.12509846       3.4041        27455.94          364.22
+    2      0.13993968       3.8080        30713.21          325.59
+    3      0.14461311       3.9351        31738.91          315.07
+    4      0.18577738       5.0553        40773.42          245.26
+    5      0.20825383       5.6669        45706.44          218.79
+ ============================================================================
+ 
+ Calculate transition density matrix...
+ Incore algorithm!
+ 
+    Assemble J^Q_ia integrals...
+    Calculate MP2 amplitudes...
+    Calculate MP2 density matrices...
+    Calculate R2 amplitudes and their contributions to transition density matrix...
+       For root     1
+       For root     2
+       For root     3
+       For root     4
+       For root     5
+ ============================================================================
+ CPU time [min]:   127.512                   Wall time [min]:    16.382
+ 
+ 
+ Calculate oscillator and rotational strength...
+ 
+                    %r1%      %r2% 
+ ====================================
+  root    1        90.068     9.932
+  root    2        90.065     9.935
+  root    3        90.011     9.989
+  root    4        88.361    11.639
+  root    5        89.727    10.273
+ ====================================
+ 
+ Final result for excited states:
+ Singlet states:
+ 
+                       Components of transition electric
+ Excited               dipole moment in length gauge [au]         Dipole          Oscillator
+  state                x              y              z         strength [au]       strength
+ ===========================================================================================
+    1       0     -1.2560177     -0.0862040     -0.0292349       1.5858664         0.1322596
+    2       0      0.2740527      0.0042856      0.0402823       0.0767459         0.0071599
+    3       0      0.0251791     -0.0908270      0.0279379       0.0096641         0.0009317
+    4       0     -0.1083240      1.0335418     -0.1081272       1.0916342         0.1352006
+    5       0      0.0666524     -1.2668101      0.0723666       1.6144873         0.2241488
+ ===========================================================================================
+ 
+ 
+                      Components of transition electric
+ Excited             dipole moment in velocity gauge [au]         Dipole          Oscillator
+  state                x              y              z         strength [au]       strength
+ ===========================================================================================
+    1       0     -0.1900838     -0.0132342     -0.0054914       0.0363372         0.1936456
+    2       0      0.0455405      0.0008936      0.0019978       0.0020787         0.0099030
+    3       0      0.0024494     -0.0150972      0.0006413       0.0002343         0.0010803
+    4       0     -0.0239387      0.1952211     -0.0243818       0.0392788         0.1409530
+    5       0      0.0135271     -0.2429040      0.0214839       0.0596469         0.1909429
+ ===========================================================================================
+ 
+ 
+                           Components of transition
+ Excited                  magnetic dipole moment [au]        Rotatory strength  Rotatory strength
+  state                x              y              z          length [au]       velocity [au]
+ ===========================================================================================
+    1       0     -0.0661757     -0.0039628      0.7289098       0.0621499         0.0689746
+    2       0     -0.3374854     -0.0554467     -0.2687767      -0.1035533        -0.1140188
+    3       0      0.0722104      0.4170544      0.0568986      -0.0344720        -0.0420639
+    4       0      0.0110690      0.0323980     -0.0801346       0.0409504         0.0431356
+    5       0     -0.0933503     -0.0536409      0.2015712       0.0763178         0.0772968
+ ===========================================================================================
+ 
+ CPU time [min]:   127.569                   Wall time [min]:    16.384
+ 
+ 
+ ************************ 2026-01-24 17:49:34 *************************
+                      Normal termination of mrcc.
+ **********************************************************************
