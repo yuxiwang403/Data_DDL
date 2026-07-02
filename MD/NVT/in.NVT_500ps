@@ -1,0 +1,48 @@
+# ====================================================
+# Production run for DDL (GAFF/AM1-BCC) + TIP3P water
+# NVT then optional NPT
+# ====================================================
+
+units real
+boundary p p p
+atom_style full
+
+read_restart after_NPT_100ps.restart   # 使用平衡后的 NPT 重启文件
+
+# --- 分组 ---
+group water type 9 10
+group ddl subtract all water
+
+# --- 邻居列表 ---
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+
+# --- SHAKE 水 ---
+fix shake_water water shake 1.0e-4 20 0 b 30 a 52
+
+# --- KSpace ---
+kspace_style pppm 1.0e-4
+
+# --- 输出设置 ---
+thermo 1000
+thermo_style custom step temp press pe ke etotal density vol lx ly lz xy xz yz
+
+# --- Trajectory dump for HBCalculator ---
+dump traj all custom 5000 traj_prod.lammpstrj id mol type q x y z
+dump_modify traj sort id
+
+timestep 1.0  # fs
+
+# ====================================================
+# Production NVT run
+# ====================================================
+fix nvt_prod all nvt temp 300.0 300.0 100.0
+run 500000  # 0.5 ns
+unfix nvt_prod
+
+# --- 结束 ---
+undump traj
+unfix shake_water
+
+write_data final_prod.data
+write_restart final_prod.restart
